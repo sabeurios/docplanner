@@ -1,0 +1,247 @@
+body{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+}
+.marged{
+    margin: 0 200px;
+}
+.nav-bar-right{
+    display: flex;
+    margin-left: 367px;
+}
+.nav-bar-right li{
+    margin-left: 17px;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-bloc{
+    display: none;
+    position: absolute;
+    align-items: center;
+    padding-top: 13px;
+    margin-top: 20px;
+    background-color:#F6F8F8;
+    margin-left: -120px;
+    padding-bottom: 10px;
+}
+.dropdown-bloc ul{
+    padding-left: 0px;
+    margin: 0px;
+}
+.dropdown-bloc ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-bloc ul li a{
+    color:  gray;
+}
+.dropdown-bloc a{
+    margin: 10px;
+}
+.dropdown:hover .dropdown-bloc{
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+    color: gray;
+}
+.docplanner-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    opacity: 1;
+    z-index: 1;
+    background-color: white;
+    width: 1350px;
+    -webkit-box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
+box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
+}
+.docplanner-logo h1 a img {
+    width: 268px;
+    height: 33px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction-logo{
+    padding-top: 95px;
+}
+.introduction h1{
+    font-size: 31px;
+    color: #00C3A5;
+}
+.introduction-text{
+    display: flex;
+    line-height: 28px;
+}
+.introduction-text p{
+    padding: 10px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+}
+.introduction-second-text{
+    margin-left:9px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.services h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.service-card-patients{
+background-color: #00CCB1;
+width: 50%;
+}
+.service-card-select{
+    padding: 10px;
+    border-radius: 5px;
+}
+.service-card-doctors{
+    background-color: #3D83DF;
+    width: 50%;
+}
+.service-card{
+  padding:20px;
+  border-radius: 8px;  
+  color: white;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.service-card-image1 img{
+    width: 100%;
+    margin-left: 40%;
+    margin-top: -3.3em;
+}
+.service-card-image2 img{
+    width: 100%;
+    margin-left: 40%;
+}
+
+.brands{
+    display: flex;
+}
+.brands-logo{
+    display: flex;
+    flex: 2;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.brands-logo svg {
+    width: 127px;
+    height: 50px;
+    padding-right: 29px;
+    fill: grey;
+}
+.brands-logo svg:hover {
+
+    fill: #00C3A5;
+}
+.brands-text{
+    flex: 1;
+}
+.brands-text h3{
+    width: 179px;
+}
+.brands-title{
+    width:1%;
+    height: 1%;
+}
+.stats{
+    display: flex;
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 3.125rem auto 5.5rem;
+    justify-content: space-between;
+    padding: 0 200px;
+    position: relative;
+}
+.stats-logo-content{
+    background-color: white;
+    width: 178px;
+    height: 251px;
+    margin: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.stats-logo-content p{
+    font-size: 75%;
+}
+.stats-logo-content h3{
+    font-size: 20px;
+    color:  #00CCB1;
+
+}
+.stats-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 456px;
+}
+.logo-bottom{
+    position: absolute;
+    left: 39px;
+    top: 261px;
+}
+.two-bloc div{
+    border-radius: 7px;
+}
+.offices-slider{
+    display: flex;
+    flex-wrap: wrap;
+}
+.office{
+    flex: 1;
+}
+.offices-slider div:hover{
+-webkit-box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
+box-shadow: -2px -1px 36px -14px rgba(0,0,0,0.75);
+}
+.office img{
+    border-radius: 6px;
+}
+.offices-header{
+    text-align: center;
+}
+.btn-office{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 24px 24px;
+}
+.btn-office button{
+    height: 30px;
+    width: 45%;
+    border-radius: 5px;
+    background-color: #1662C6;
+    color: white;
+    font-size: 60%;
+}
+.footer{
+    text-align: center;
+    font-size: 75%;    
+    width: 179px;
+}
+.inside-footer{
+    width: 1344px;
+}
+
